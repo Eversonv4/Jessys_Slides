@@ -1,4 +1,4 @@
-# Jessys_Slides
+# Jessy's Slides
 A simples slide photos project created by using HTML, CSS and Javascript
 
 
