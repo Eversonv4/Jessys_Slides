@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photo-Slide Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <img class="main-foto" src="./assets/images/jessy.png" />
+    </div>
+
+    <div class="navigation-container">
+      <h3 class="left" onclick="filter(this)">Left</h3>
+      <ul>
+        <li>
+          <img
+            class="cards"
+            onclick="receiveImg(this)"
+            src="./assets/images/jessy.png"
+          />
+        </li>
+        <li>
+          <img
+            class="cards"
+            onclick="receiveImg(this)"
+            src="./assets/images/jessy2.jpg"
+          />
+        </li>
+        <li>
+          <img
+            class="cards"
+            onclick="receiveImg(this)"
+            src="./assets/images/jessy3.jpg"
+          />
+        </li>
+      </ul>
+      <h3 class="right" onclick="filter(this)">Right</h3>
+    </div>
+
+    <script src="./assets/scripts/script.js"></script>
+  </body>
+</html>
